@@ -81,11 +81,11 @@
 
 	<div class="drawer-side">
 		<label for="my-drawer-3" aria-label="close sidebar" class="drawer-overlay"></label>
-		<ul class="menu menu-vertical min-h-full w-80 bg-base-200 p-4">
+		<div class="menu menu-vertical min-h-full w-80 bg-base-200 p-4 space-y-3">
 			<!-- Sidebar content here -->
 
 			<!-- Navbar brand -->
-			<div class="flex-1 space-x-20">
+			<div class="flex-none space-x-20">
 				<a class="btn btn-ghost text-xl font-extrabold" href="/">LeavedTrait</a>
 				<label for="my-drawer-3" aria-label="open sidebar" class="btn btn-square btn-ghost">
 					<svg
@@ -103,8 +103,11 @@
 					</svg>
 				</label>
 			</div>
+            
 
-			<li>
+            <div class="font-bold text-lg">
+
+			<li class="font-bold">
 				<a href="/projects">projects</a>
 			</li>
 			<li>
@@ -113,6 +116,7 @@
 			<li>
 				<a href="/blog">blog</a>
 			</li>
-		</ul>
+            </div>
+		</div>
 	</div>
 </div>
