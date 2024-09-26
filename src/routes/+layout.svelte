@@ -3,8 +3,11 @@
 	import '../app.css';
 </script>
 
-<main class="">
+<main>
 	<NavBar />
-	<br />
-	<slot />
+	<br><br><br><br>
+	<div>
+		<slot />
+	</div>
+	
 </main>
