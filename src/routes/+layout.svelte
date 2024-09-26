@@ -3,7 +3,8 @@
 	import '../app.css';
 </script>
 
-<main class="py-10">
+<main class="">
 	<NavBar />
-	<slot></slot>
+	<br>
+	<slot/>
 </main>

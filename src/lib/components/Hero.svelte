@@ -1,4 +1,4 @@
-<div class="prose flex h-full w-full flex-col items-center p-4 lg:prose-xl">
+<div class="prose flex w-full flex-col items-center p-4 lg:prose-xl">
 	<h1>Hey there 👋,I'm Johnson.</h1>
 	<div class="flex w-full flex-col items-center space-y-4 lg:min-w-full lg:flex-row lg:space-x-8">
 		<div class="flex w-full flex-col items-center">

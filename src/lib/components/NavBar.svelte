@@ -37,7 +37,7 @@
 						<a href="/projects">projects</a>
 					</li>
 					<li>
-						<a href="/cv">cv</a>
+						<a href="/resumé">resumé</a>
 					</li>
 					<li>
 						<a href="/blog">blog</a>
@@ -125,7 +125,7 @@
 					<a href="/projects">projects</a>
 				</li>
 				<li>
-					<a href="/cv">cv</a>
+					<a href="/resumé">resumé</a>
 				</li>
 				<li>
 					<a href="/blog">blog</a>

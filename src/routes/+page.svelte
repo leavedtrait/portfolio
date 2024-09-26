@@ -1,5 +1,6 @@
 <script>
 	import Hero from '$lib/components/Hero.svelte';
+	import MobileRedirectButtons from '$lib/components/MobileRedirectButtons.svelte';
 </script>
 
 <svelte:head>
@@ -10,8 +11,10 @@
 		content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
 	/>
 </svelte:head>
-<div class="h-full min-w-full py-12">
+<div class="min-h-full min-w-full py-12">
+
 	<div class="flex flex-col items-center">
 		<Hero />
+		<MobileRedirectButtons/>
 	</div>
 </div>
