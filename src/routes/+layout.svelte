@@ -5,6 +5,6 @@
 
 <main class="">
 	<NavBar />
-	<br>
-	<slot/>
+	<br />
+	<slot />
 </main>

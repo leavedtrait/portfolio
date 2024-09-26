@@ -12,9 +12,8 @@
 	/>
 </svelte:head>
 <div class="min-h-full min-w-full py-12">
-
 	<div class="flex flex-col items-center">
 		<Hero />
-		<MobileRedirectButtons/>
+		<MobileRedirectButtons />
 	</div>
 </div>
