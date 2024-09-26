@@ -1,9 +1,11 @@
 <script>
-    import Hero from "$lib/components/Hero.svelte";
+	import Hero from '$lib/components/Hero.svelte';
 </script>
-
-  <div class="py-12 min-w-full h-full">
-    <div class="flex flex-col items-center">
-        <Hero/>
-    </div>
-  </div>
+<svelte:head>
+  <title>Johnson Macharia</title>
+</svelte:head>
+<div class="h-full min-w-full py-12">
+	<div class="flex flex-col items-center">
+		<Hero />
+	</div>
+</div>
