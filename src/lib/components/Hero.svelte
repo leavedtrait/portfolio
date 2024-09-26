@@ -9,7 +9,7 @@
 					loading="lazy"
 					class="border-muted-base mx-auto my-5 mt-5 size-32 rounded-full border-4 md:size-48 md:border-[6px]"
 				/>
-                <p>📍 Nairobi,Kenya</p>
+                <p>📍 Nairobi, Kenya</p>
 				<p>🤗 Student @ Technical University of Kenya</p>
 				<p>🌐 Fullstack & Embedded</p>
 			</div>
