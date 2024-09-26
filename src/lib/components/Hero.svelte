@@ -13,7 +13,6 @@
 				<p>🤗 Student @ Technical University of Kenya</p>
 				<p>🌐 Fullstack & Embedded</p>
 			</div>
-
 		</div>
         
 		<div class="w-full " >
