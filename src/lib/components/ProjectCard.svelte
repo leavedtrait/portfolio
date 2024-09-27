@@ -19,7 +19,7 @@
 			<div class="badge badge-outline">Products</div>
 		</div>
 		<div class="card-actions justify-end">
-			<ul class="menu menu-horizontal font-bold">
+			<ul class="menu menu-horizontal font-bold space-x-4">
 				<li>
 					<a class="btn" href={props.githubUrl}
 						>View on
