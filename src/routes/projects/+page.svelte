@@ -31,6 +31,9 @@
 
 <div class="space-y-6 space-x-4 flex flex-col lg:flex lg:flex-row items-center p-4">
 	{#each projectList as props}
-		<ProjectCard {props} />
+    <div class=" -z-[1]">
+        <ProjectCard {props} />
+    </div>
+		
 	{/each}
 </div>
