@@ -4,7 +4,7 @@
 	export let props: projectCardProps;
 </script>
 
-<div class="card w-96 glass shadow-xl">
+<div class="card w-96 glass">
 	<figure>
 		<img src={props.imageUrl} alt="Shoes" />
 	</figure>
