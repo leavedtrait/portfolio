@@ -9,7 +9,7 @@
 	let projectList: projectCardProps[] = [
 		{
 			imageUrl:
-				'https://res.cloudinary.com/dupkisnya/image/upload/v1727473244/Screenshot_from_2024-09-28_00-40-16_fthugj.png',
+				'https://res.cloudinary.com/dupkisnya/image/upload/f_webp/Screenshot_from_2024-09-28_00-40-16_fthugj.jpg',
 			title: 'My portfolio',
 			description:
 				'My portfolio/blog, built with Sveltekit and Tailwind.The blog is powered  by MDsveX.',
@@ -19,7 +19,7 @@
 		{
 			title: 'Promptopia',
 			imageUrl:
-				'https://res.cloudinary.com/dupkisnya/image/upload/v1727471321/Screenshot_from_2024-09-28_00-03-07_g4syg9.png',
+				'https://res.cloudinary.com/dupkisnya/image/upload/f_webp/Screenshot_from_2024-09-28_00-03-07_g4syg9.jpg',
 			description: 'Introducing Promptopia ,a website built for sharing Ai prompts.',
 			githubUrl: 'https://github.com/leavedtrait/share-prompts',
 			liveUrl: 'https://share-prompts-dusky.vercel.app/'
