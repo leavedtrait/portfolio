@@ -1,34 +1,36 @@
 <script lang="ts">
 	import Seo from '$lib/components/Seo.svelte';
-	import { PinContainer } from '$lib/components/ui/ThreeDPin';
-	import type { seoConfigType } from '$lib/types';
+	import ProjectCard from '$lib/components/ProjectCard.svelte';
+	import type { projectCardProps, seoConfigType } from '$lib/types';
 	const seoConfig: seoConfigType = {
 		title: 'Johnson Macharia',
 		description: 'list of my projects'
 	};
+	let projectList: projectCardProps[] = [
+        {
+			imageUrl:
+            'https://res.cloudinary.com/dupkisnya/image/upload/v1727473244/Screenshot_from_2024-09-28_00-40-16_fthugj.png',
+			title: 'My portfolio',
+			description:
+				'My portfolio/blog, built with Sveltekit and Tailwind.The blog is powered  by MDsveX.',
+			githubUrl: 'https://github.com/leavedtrait/portfolio',
+			liveUrl: 'https://leavedtrait.vercel.app'
+		},
+		{
+			title: 'Promptopia',
+			imageUrl:
+				'https://res.cloudinary.com/dupkisnya/image/upload/v1727471321/Screenshot_from_2024-09-28_00-03-07_g4syg9.png',
+			description: 'Introducing Promptopia ,a website built for sharing Ai prompts.',
+			githubUrl: 'https://github.com/leavedtrait/share-prompts',
+			liveUrl: 'https://share-prompts-dusky.vercel.app/'
+		}
+	];
 </script>
 
 <Seo {seoConfig} />
 
-<div class=" relative">
-    <div class="flex h-[40rem] w-full items-center justify-center">
-        <PinContainer title="/aceternity.sveltekit.io" href="https://aceternity.sveltekit.io">
-            <div
-                class="flex h-[20rem] w-[20rem] basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2"
-            >
-                <h3 class="!m-0 max-w-xs !pb-2 text-base font-bold text-slate-100">Aceternity UI</h3>
-                <div class="!m-0 !p-0 text-base font-normal">
-                    <span class="text-slate-500">
-                        Customizable Tailwind CSS and Framer Motion Components.
-                    </span>
-                </div>
-                <div
-                    class="mt-4 flex w-full flex-1 rounded-lg bg-gradient-to-br from-violet-500 via-purple-500 to-blue-500"
-                />
-            </div>
-        </PinContainer>
-    </div>
-
+<div class="space-y-6 space-x-4 flex flex-col lg:flex lg:flex-row items-center p-4">
+	{#each projectList as props}
+		<ProjectCard {props} />
+	{/each}
 </div>
-
-Installation
