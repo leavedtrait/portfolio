@@ -14,11 +14,11 @@
 			<div class="badge badge-secondary">NEW</div>
 		</h2>
 		<p>{props.description}</p>
-		<div class="card-actions justify-end">
+		<div class="card-actions justify-center">
 			<div class="badge badge-outline">Fashion</div>
 			<div class="badge badge-outline">Products</div>
 		</div>
-		<div class="card-actions justify-end">
+		<div class=" card-actions justify-center">
 			<ul class="menu menu-horizontal font-bold space-x-4">
 				<li>
 					<a class="btn" href={props.githubUrl}
