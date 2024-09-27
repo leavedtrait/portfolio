@@ -4,7 +4,7 @@
 	export let props: projectCardProps;
 </script>
 
-<div class="card w-96 glass">
+<div class="card glass w-96">
 	<figure>
 		<img src={props.imageUrl} alt="Shoes" />
 	</figure>
@@ -19,7 +19,7 @@
 			<div class="badge badge-outline">Products</div>
 		</div>
 		<div class=" card-actions justify-center">
-			<ul class="menu menu-horizontal font-bold space-x-4">
+			<ul class="menu menu-horizontal space-x-4 font-bold">
 				<li>
 					<a class="btn" href={props.githubUrl}
 						>View on

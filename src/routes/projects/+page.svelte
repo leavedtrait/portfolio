@@ -29,10 +29,14 @@
 
 <Seo {seoConfig} />
 
-<div class="flex flex-col items-center space-x-4 space-y-6 p-4 lg:flex lg:flex-row">
-	{#each projectList as props}
-		<div class=" -z-[1]">
-			<ProjectCard {props} />
-		</div>
-	{/each}
+<div class="flex flex-col items-center">
+	<div
+		class="grid justify-center gap-6 space-x-4 p-4 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 lg:gap-8 xl:grid-cols-4"
+	>
+		{#each projectList as props}
+			<div class="-z-[1] mx-auto">
+				<ProjectCard {props} />
+			</div>
+		{/each}
+	</div>
 </div>
