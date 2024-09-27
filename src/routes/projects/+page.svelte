@@ -7,9 +7,9 @@
 		description: 'list of my projects'
 	};
 	let projectList: projectCardProps[] = [
-        {
+		{
 			imageUrl:
-            'https://res.cloudinary.com/dupkisnya/image/upload/v1727473244/Screenshot_from_2024-09-28_00-40-16_fthugj.png',
+				'https://res.cloudinary.com/dupkisnya/image/upload/v1727473244/Screenshot_from_2024-09-28_00-40-16_fthugj.png',
 			title: 'My portfolio',
 			description:
 				'My portfolio/blog, built with Sveltekit and Tailwind.The blog is powered  by MDsveX.',
@@ -29,11 +29,10 @@
 
 <Seo {seoConfig} />
 
-<div class="space-y-6 space-x-4 flex flex-col lg:flex lg:flex-row items-center p-4">
+<div class="flex flex-col items-center space-x-4 space-y-6 p-4 lg:flex lg:flex-row">
 	{#each projectList as props}
-    <div class=" -z-[1]">
-        <ProjectCard {props} />
-    </div>
-		
+		<div class=" -z-[1]">
+			<ProjectCard {props} />
+		</div>
 	{/each}
 </div>
