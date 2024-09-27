@@ -31,7 +31,7 @@
 
 <Seo {seoConfig} />
 
-<div class="flex flex-col items-center scroll-smooth">
+<div class="flex flex-col items-center">
 	<!-- Grid layout for small and medium devices -->
 	<div class="lg:hidden p-4 grid justify-center gap-6 sm:grid-cols-1 md:grid-cols-2">
 		{#each projectList as props}
