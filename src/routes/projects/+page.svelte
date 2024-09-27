@@ -29,7 +29,7 @@
 
 <Seo {seoConfig} />
 
-<div class="flex flex-col items-center">
+<div class="flex flex-col items-center scroll-smooth">
 	<div
 		class="grid justify-center gap-6 space-x-4 p-4 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 lg:gap-8 xl:grid-cols-4"
 	>
