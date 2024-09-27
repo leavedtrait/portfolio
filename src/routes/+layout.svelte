@@ -5,9 +5,8 @@
 
 <main>
 	<NavBar />
-	<br><br><br><br>
+	<br /><br /><br /><br />
 	<div>
 		<slot />
 	</div>
-	
 </main>

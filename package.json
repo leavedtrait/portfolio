@@ -36,6 +36,9 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"@types/node": "^22.7.0"
+		"@types/node": "^22.7.0",
+		"clsx": "^2.1.1",
+		"svelte-motion": "^0.12.2",
+		"tailwind-merge": "^2.5.2"
 	}
 }
