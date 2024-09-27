@@ -11,9 +11,15 @@
 		content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
 	/>
 </svelte:head>
-<div class="min-h-full min-w-full">
+<div class="h-screen min-w-full">
 	<div class="flex flex-col items-center">
 		<Hero />
-		<MobileRedirectButtons />
+
+		<a href="/projects">
+			<button class="btn  btn-lg">
+				<a href="/blog">Blog</a>
+			</button>
+		</a>
+
 	</div>
 </div>
