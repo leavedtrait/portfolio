@@ -24,7 +24,7 @@
 		<div class="mt-4 flex justify-center space-x-4">
 			<a
 				href={props.githubUrl}
-				class="flex items-center rounded-lg bg-gray-800 px-4 py-2 text-sm font-semibold text-white transition hover:bg-gray-700"
+				class="flex items-center rounded-lg btn-neutral btn btn-active px-4 py-2 text-sm font-semibold text-white transition hover:bg-gray-700"
 			>
 				View on
 				<svg
@@ -49,7 +49,7 @@
 			</a>
 			<a
 				href={props.liveUrl}
-				class="flex items-center rounded-lg bg-blue-600 px-4 py-2 text-sm font-semibold text-white transition hover:bg-blue-500"
+				class="flex items-center rounded-lg bg-blue-600 btn-active px-4 py-2 text-sm font-semibold text-white transition hover:bg-blue-500"
 			>
 				Live URL
 				<svg viewBox="0 0 30 30" class="ml-2" width="24" height="24" fill="currentColor">
