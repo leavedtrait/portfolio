@@ -10,7 +10,6 @@
 		  src={project.imageUrl} 
 		  alt={project.title} 
 		  class="w-full h-auto object-cover" 
-		  loading="lazy" 
 		/>
 	  </figure>
 	  
