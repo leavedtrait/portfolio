@@ -10,14 +10,8 @@
 		content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
 	/>
 </svelte:head>
-<div class="min-h-screen min-w-full">
+<div class="h-full min-w-full">
 	<div class="flex flex-col items-center space-y-2">
 		<Hero />
-
-		<a href="/projects">
-			<button class="btn btn-lg">
-				<a href="/blog">Blog</a>
-			</button>
-		</a>
 	</div>
 </div>
