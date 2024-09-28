@@ -33,7 +33,7 @@
 
 <div class="flex flex-col items-center">
 	<!-- Grid layout for small and medium devices -->
-	<div class="lg:hidden p-4 grid justify-center gap-6 sm:grid-cols-1 md:grid-cols-2">
+	<div class="grid justify-center gap-6 p-4 sm:grid-cols-1 md:grid-cols-2 lg:hidden">
 		{#each projectList as props}
 			<div class="-z-[1] mx-auto">
 				<ProjectCard {props} />
@@ -42,7 +42,7 @@
 	</div>
 
 	<!-- Flexbox layout for large devices and above -->
-	<div class="hidden lg:grid lg:grid-cols-2 xl:grid-cols-3 gap-10 p-6 m-auto">
+	<div class="m-auto hidden gap-10 p-6 lg:grid lg:grid-cols-2 xl:grid-cols-3">
 		{#each projectList as props}
 			<div class="-z-[1] mx-auto">
 				<ProjectCard {props} />

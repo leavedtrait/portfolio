@@ -48,7 +48,7 @@
 			<!-- External Links -->
 			<ul class="menu menu-horizontal flex-none">
 				<li>
-					<a href="https://github.com/leavedtrait">
+					<a aria-label="github profile" href="https://github.com/leavedtrait">
 						<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
 							<path
 								d="M15,3C8.373,3,3,8.373,3,15c0,5.623,3.872,10.328,9.092,11.63C12.036,26.468,12,26.28,12,26.047v-2.051 
@@ -64,7 +64,7 @@
 					</a>
 				</li>
 				<li>
-					<a href="https://www.linkedin.com/in/johnson-macharia-60536b2b2/">
+					<a aria-label="linkedin profile" href="https://www.linkedin.com/in/johnson-macharia-60536b2b2/">
 						<svg xmlns="http://www.w3.org/2000/svg" width="30" height="28" viewBox="0 0 50 50">
 							<path
 								d="M41,4H9C6.24,4,4,6.24,4,9v32c0,2.76,2.24,5,5,5h32c2.76,0,5-2.24,5-5V9C46,6.24,43.76,4,41,4z M17,20v19h-6V20H17z 
@@ -76,7 +76,7 @@
 					</a>
 				</li>
 				<li>
-					<a href="/twitterprofile">
+					<a aria-label="twitter profile" href="/twitterprofile">
 						<svg
 							xmlns="http://www.w3.org/2000/svg"
 							x="0px"
@@ -121,22 +121,25 @@
 			</div>
 
 			<div class=" flex-1 text-lg font-bold">
-				<li class="font-bold">
-					<a href="/projects">projects</a>
-				</li>
-				<li>
-					<a href="/resumé">resumé</a>
-				</li>
-				<li>
-					<a href="/blog">blog</a>
-				</li>
+				<ul>
+					<li class="font-bold">
+						<a href="/projects">projects</a>
+					</li>
+					<li>
+						<a href="/resumé">resumé</a>
+					</li>
+					<li>
+						<a href="/blog">blog</a>
+					</li>
+				</ul>
+				
 			</div>
 
 			<div>
 				<!-- External Links -->
 				<ul class="menu menu-horizontal flex-none">
 					<li>
-						<a href="https://github.com/leavedtrait">
+						<a aria-label="github profile" href="https://github.com/leavedtrait">
 							<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
 								<path
 									d="M15,3C8.373,3,3,8.373,3,15c0,5.623,3.872,10.328,9.092,11.63C12.036,26.468,12,26.28,12,26.047v-2.051 
@@ -152,7 +155,7 @@
 						</a>
 					</li>
 					<li>
-						<a href="https://www.linkedin.com/in/johnson-macharia-60536b2b2/">
+						<a aria-label="linkedin profile" href="https://www.linkedin.com/in/johnson-macharia-60536b2b2/">
 							<svg xmlns="http://www.w3.org/2000/svg" width="30" height="28" viewBox="0 0 50 50">
 								<path
 									d="M41,4H9C6.24,4,4,6.24,4,9v32c0,2.76,2.24,5,5,5h32c2.76,0,5-2.24,5-5V9C46,6.24,43.76,4,41,4z M17,20v19h-6V20H17z 
@@ -164,7 +167,7 @@
 						</a>
 					</li>
 					<li>
-						<a href="/twitterprofile">
+						<a aria-label="twitter profile" href="/twitterprofile">
 							<svg
 								xmlns="http://www.w3.org/2000/svg"
 								x="0px"
