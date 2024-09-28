@@ -11,20 +11,19 @@
 	let projectList: projectCardProps[] = [
 		{
 			title: 'Promptopia',
-			imageUrl:
-				'https://res.cloudinary.com/dupkisnya/image/upload/f_webp/Screenshot_from_2024-09-28_00-03-07_g4syg9.jpg',
+			imageUrl: 'https://res.cloudinary.com/dupkisnya/image/upload/f_webp/Screenshot_from_2024-09-28_00-03-07_g4syg9.jpg',
 			description: 'Introducing Promptopia, a website built for sharing AI prompts.',
 			githubUrl: 'https://github.com/leavedtrait/share-prompts',
-			liveUrl: 'https://share-prompts-dusky.vercel.app/'
+			liveUrl: 'https://share-prompts-dusky.vercel.app/',
+			tags: ["Nextjs","MongoDB","Next-auth"]
 		},
 		{
-			imageUrl:
-				'https://res.cloudinary.com/dupkisnya/image/upload/f_webp/Screenshot_from_2024-09-28_00-40-16_fthugj.jpg',
+			imageUrl: 'https://res.cloudinary.com/dupkisnya/image/upload/f_webp/Screenshot_from_2024-09-28_00-40-16_fthugj.jpg',
 			title: 'My portfolio',
-			description:
-				'My portfolio/blog, built with SvelteKit and Tailwind. The blog is powered by MDsveX.',
+			description: 'My portfolio/blog, built with SvelteKit and Tailwind. The blog is powered by MDsveX.',
 			githubUrl: 'https://github.com/leavedtrait/portfolio',
-			liveUrl: 'https://leavedtrait.vercel.app'
+			liveUrl: 'https://leavedtrait.vercel.app',
+			tags: ["SvelteKit","Tailwind","MDsveX"]
 		}
 	];
 </script>
@@ -35,7 +34,7 @@
 	<!-- Grid layout for small and medium devices -->
 	<div class="grid justify-center gap-6 p-4 sm:grid-cols-1 md:grid-cols-2 lg:hidden">
 		{#each projectList as props}
-			<div class="-z-[1] mx-auto">
+			<div class="mx-auto">
 				<ProjectCard {props} />
 			</div>
 		{/each}
@@ -44,7 +43,7 @@
 	<!-- Flexbox layout for large devices and above -->
 	<div class="m-auto hidden gap-10 p-6 lg:grid lg:grid-cols-2 xl:grid-cols-3">
 		{#each projectList as props}
-			<div class="-z-[1] mx-auto">
+			<div class=" mx-auto">
 				<ProjectCard {props} />
 			</div>
 		{/each}
