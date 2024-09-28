@@ -64,7 +64,10 @@
 					</a>
 				</li>
 				<li>
-					<a aria-label="linkedin profile" href="https://www.linkedin.com/in/johnson-macharia-60536b2b2/">
+					<a
+						aria-label="linkedin profile"
+						href="https://www.linkedin.com/in/johnson-macharia-60536b2b2/"
+					>
 						<svg xmlns="http://www.w3.org/2000/svg" width="30" height="28" viewBox="0 0 50 50">
 							<path
 								d="M41,4H9C6.24,4,4,6.24,4,9v32c0,2.76,2.24,5,5,5h32c2.76,0,5-2.24,5-5V9C46,6.24,43.76,4,41,4z M17,20v19h-6V20H17z 
@@ -132,7 +135,6 @@
 						<a href="/blog">blog</a>
 					</li>
 				</ul>
-				
 			</div>
 
 			<div>
@@ -155,7 +157,10 @@
 						</a>
 					</li>
 					<li>
-						<a aria-label="linkedin profile" href="https://www.linkedin.com/in/johnson-macharia-60536b2b2/">
+						<a
+							aria-label="linkedin profile"
+							href="https://www.linkedin.com/in/johnson-macharia-60536b2b2/"
+						>
 							<svg xmlns="http://www.w3.org/2000/svg" width="30" height="28" viewBox="0 0 50 50">
 								<path
 									d="M41,4H9C6.24,4,4,6.24,4,9v32c0,2.76,2.24,5,5,5h32c2.76,0,5-2.24,5-5V9C46,6.24,43.76,4,41,4z M17,20v19h-6V20H17z 

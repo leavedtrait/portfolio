@@ -4,27 +4,37 @@
 	export let props: projectCardProps;
 </script>
 
-<div class="max-w-xs bg-white shadow-lg rounded-lg overflow-hidden">
+<div class="max-w-xs overflow-hidden rounded-lg bg-base-200/30 shadow-lg backdrop:blur-md">
 	<figure>
-		<img src={props.imageUrl} alt={props.title} class="w-full h-48 object-cover"/>
+		<img src={props.imageUrl} alt={props.title} class="h-48 w-full object-cover" />
 	</figure>
-	<div class="p-4 space-y-2">
-		<h2 class="text-xl font-semibold flex items-center justify-between">
+	<div class="space-y-2 p-4">
+		<h2 class="flex items-center justify-between text-xl font-semibold">
 			{props.title}
-			<span class="ml-2 text-xs bg-blue-100 text-blue-600 rounded-full px-2 py-1">NEW</span>
+			<span class="ml-2 rounded-full bg-blue-100 px-2 py-1 text-xs text-blue-600">NEW</span>
 		</h2>
-		<p class="text-gray-600 text-sm">
+		<p class="text-sm text-gray-600">
 			{props.description}
 		</p>
 		<div class="flex justify-center space-x-2 py-2">
 			{#each props.tags as tag}
-			<div class="badge badge-outline">{tag}</div>
-		  {/each}	
+				<div class="badge badge-outline">{tag}</div>
+			{/each}
 		</div>
-		<div class="flex justify-center space-x-4 mt-4">
-			<a href={props.githubUrl} class="flex items-center px-4 py-2 bg-gray-800 text-white text-sm font-semibold rounded-lg hover:bg-gray-700 transition">
+		<div class="mt-4 flex justify-center space-x-4">
+			<a
+				href={props.githubUrl}
+				class="flex items-center rounded-lg bg-gray-800 px-4 py-2 text-sm font-semibold text-white transition hover:bg-gray-700"
+			>
 				View on
-				<svg xmlns="http://www.w3.org/2000/svg" class="ml-2" width="24" height="24" viewBox="0 0 30 30" fill="currentColor">
+				<svg
+					xmlns="http://www.w3.org/2000/svg"
+					class="ml-2"
+					width="24"
+					height="24"
+					viewBox="0 0 30 30"
+					fill="currentColor"
+				>
 					<path
 						d="M15,3C8.373,3,3,8.373,3,15c0,5.623,3.872,10.328,9.092,11.63C12.036,26.468,12,26.28,12,26.047v-2.051 
                 c-0.487,0-1.303,0-1.508,0c-0.821,0-1.551-0.353-1.905-1.009c-0.393-0.729-0.461-1.844-1.435-2.526 
@@ -37,10 +47,15 @@
 					></path>
 				</svg>
 			</a>
-			<a href={props.liveUrl} class="flex items-center px-4 py-2 bg-blue-600 text-white text-sm font-semibold rounded-lg hover:bg-blue-500 transition">
+			<a
+				href={props.liveUrl}
+				class="flex items-center rounded-lg bg-blue-600 px-4 py-2 text-sm font-semibold text-white transition hover:bg-blue-500"
+			>
 				Live URL
 				<svg viewBox="0 0 30 30" class="ml-2" width="24" height="24" fill="currentColor">
-					<path fill-rule="evenodd" clip-rule="evenodd"
+					<path
+						fill-rule="evenodd"
+						clip-rule="evenodd"
 						d="M21 4a1 1 0 0 0-1-1h-5a1 1 0 1 0 0 2h2.586l-2.11 2.11a6.007 6.007 0 0 1 1.415 1.413L19 6.414V9a1 1 0 1 0 2 0zm-5.523 3.11A5.973 5.973 0 0 0 12 6H5a2 2 0 0 0-2 2v11a2 2 0 0 0 2 2h11a2 2 0 0 0 2-2v-7c0-1.296-.41-2.496-1.11-3.477l-6.183 6.184a1 1 0 0 1-1.414-1.414z"
 					></path>
 				</svg>

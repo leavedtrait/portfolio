@@ -9,5 +9,5 @@ export interface projectCardProps {
 	description: string;
 	githubUrl: string;
 	liveUrl: string;
-	tags: string[]
+	tags: string[];
 }
