@@ -6,13 +6,9 @@
 
 <div class="max-w-xs overflow-hidden rounded-lg bg-base-200/30 shadow-lg backdrop:blur-md">
 	<figure class="aspect-w-16 aspect-h-9">
-		<img 
-		  src={project.imageUrl} 
-		  alt={project.title} 
-		  class="w-full h-auto object-cover" 
-		/>
-	  </figure>
-	  
+		<img src={project.imageUrl} alt={project.title} class="h-auto w-full object-cover" />
+	</figure>
+
 	<div class="space-y-2 p-4">
 		<h2 class="flex items-center justify-between text-xl font-semibold">
 			{project.title}
