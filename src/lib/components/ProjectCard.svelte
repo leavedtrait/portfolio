@@ -1,30 +1,36 @@
 <script lang="ts">
 	import type { projectCardProps } from '$lib/types';
 
-	export let props: projectCardProps;
+	export let project: projectCardProps;
 </script>
 
 <div class="max-w-xs overflow-hidden rounded-lg bg-base-200/30 shadow-lg backdrop:blur-md">
-	<figure>
-		<img src={props.imageUrl} alt={props.title} class="h-48 w-full object-cover" />
-	</figure>
+	<figure class="aspect-w-16 aspect-h-9">
+		<img 
+		  src={project.imageUrl} 
+		  alt={project.title} 
+		  class="w-full h-auto object-cover" 
+		  loading="lazy" 
+		/>
+	  </figure>
+	  
 	<div class="space-y-2 p-4">
 		<h2 class="flex items-center justify-between text-xl font-semibold">
-			{props.title}
+			{project.title}
 			<span class="ml-2 rounded-full bg-blue-100 px-2 py-1 text-xs text-blue-600">NEW</span>
 		</h2>
 		<p class="text-sm text-gray-600">
-			{props.description}
+			{project.description}
 		</p>
 		<div class="flex justify-center space-x-2 py-2">
-			{#each props.tags as tag}
+			{#each project.tags as tag}
 				<div class="badge badge-outline">{tag}</div>
 			{/each}
 		</div>
 		<div class="mt-4 flex justify-center space-x-4">
 			<a
-				href={props.githubUrl}
-				class="flex items-center rounded-lg btn-neutral btn btn-active px-4 py-2 text-sm font-semibold text-white transition hover:bg-gray-700"
+				href={project.githubUrl}
+				class="btn btn-neutral btn-active flex items-center rounded-lg px-4 py-2 text-sm font-semibold text-white transition hover:bg-gray-700"
 			>
 				View on
 				<svg
@@ -48,8 +54,8 @@
 				</svg>
 			</a>
 			<a
-				href={props.liveUrl}
-				class="flex items-center rounded-lg bg-blue-600 btn-active px-4 py-2 text-sm font-semibold text-white transition hover:bg-blue-500"
+				href={project.liveUrl}
+				class="btn-active flex items-center rounded-lg bg-blue-600 px-4 py-2 text-sm font-semibold text-white transition hover:bg-blue-500"
 			>
 				Live URL
 				<svg viewBox="0 0 30 30" class="ml-2" width="24" height="24" fill="currentColor">

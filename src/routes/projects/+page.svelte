@@ -66,7 +66,6 @@
 			liveUrl: 'https://leavedtrait.vercel.app',
 			tags: ['SvelteKit', 'Tailwind', 'MDsveX']
 		}
-
 	];
 </script>
 
@@ -75,18 +74,18 @@
 <div class="flex flex-col items-center">
 	<!-- Grid layout for small and medium devices -->
 	<div class="grid justify-center gap-6 p-4 sm:grid-cols-1 md:grid-cols-2 lg:hidden">
-		{#each projectList as props}
+		{#each projectList as project}
 			<div class="mx-auto">
-				<ProjectCard {props} />
+				<ProjectCard {project} />
 			</div>
 		{/each}
 	</div>
 
 	<!-- Flexbox layout for large devices and above -->
 	<div class="m-auto hidden gap-10 p-6 lg:grid lg:grid-cols-2 xl:grid-cols-3">
-		{#each projectList as props}
+		{#each projectList as project}
 			<div class=" mx-auto">
-				<ProjectCard {props} />
+				<ProjectCard {project} />
 			</div>
 		{/each}
 	</div>
