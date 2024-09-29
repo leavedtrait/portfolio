@@ -12,7 +12,7 @@
 	<div class="space-y-2 p-4">
 		<h2 class="flex items-center justify-between text-xl font-semibold">
 			{project.title}
-			<span class="ml-2 rounded-full bg-blue-100 px-2 py-1 text-xs text-blue-600">NEW</span>
+			<span class="ml-2 rounded-full bg-blue-100 px-2 py-1 text-xs text-blue-600">{project.category}</span>
 		</h2>
 		<p class="text-sm text-gray-600">
 			{project.description}
