@@ -21,7 +21,7 @@
 		{
 			imageUrl: 'https://res.cloudinary.com/dupkisnya/image/upload/f_webp/Screenshot_from_2024-09-28_00-40-16_fthugj.jpg',
 			title: 'My portfolio',
-			description: 'My portfolio/blog, built with SvelteKit and Tailwind. The blog is powered by MDsveX.',
+			description: 'My portfolio/blog, built with SvelteKit and Tailwind. The blog is powered by Sanity CMS',
 			githubUrl: 'https://github.com/leavedtrait/portfolio',
 			liveUrl: 'https://leavedtrait.vercel.app',
 			tags: ['SvelteKit', 'Tailwind', 'MDsveX'],
