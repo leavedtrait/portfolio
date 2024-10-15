@@ -1,15 +1,16 @@
-<script>
+<script lang="ts">
 	import Hero from '$lib/components/Hero.svelte';
+	import type {seoConfigType }from '$lib/types';
+	import Seo from "$lib/components/Seo.svelte"
+
+	const seoConfig: seoConfigType = {
+	title: "Johnson Macharia",
+	description: "view my portfolio"
+	}
 </script>
 
-<svelte:head>
-	<title>Johnson Macharia</title>
-	<meta name="description" content="View my portfolio" />
-	<meta
-		name="robots"
-		content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
-	/>
-</svelte:head>
+<Seo {seoConfig} />
+
 <div class="h-full min-w-full">
 	<div class="flex flex-col items-center space-y-2">
 		<Hero />
