@@ -24,7 +24,7 @@
 			description: 'My portfolio/blog, built with SvelteKit and Tailwind. The blog is powered by Sanity CMS',
 			githubUrl: 'https://github.com/leavedtrait/portfolio',
 			liveUrl: 'https://leavedtrait.vercel.app',
-			tags: ['SvelteKit', 'Tailwind', 'MDsveX'],
+			tags: ['SvelteKit', 'Tailwind', 'CMS'],
 			category: 'frontend'
 		},
 		{
