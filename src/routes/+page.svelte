@@ -1,12 +1,12 @@
 <script lang="ts">
 	import Hero from '$lib/components/Hero.svelte';
-	import type {seoConfigType }from '$lib/types';
-	import Seo from "$lib/components/Seo.svelte"
+	import type { seoConfigType } from '$lib/types';
+	import Seo from '$lib/components/Seo.svelte';
 
 	const seoConfig: seoConfigType = {
-	title: "Johnson Macharia",
-	description: "view my portfolio"
-	}
+		title: 'Johnson Macharia',
+		description: 'view my portfolio'
+	};
 </script>
 
 <Seo {seoConfig} />

@@ -11,7 +11,8 @@
 	let projectList: projectCardProps[] = [
 		{
 			title: 'Promptopia',
-			imageUrl: 'https://res.cloudinary.com/dupkisnya/image/upload/f_webp/Screenshot_from_2024-09-28_00-03-07_g4syg9.jpg',
+			imageUrl:
+				'https://res.cloudinary.com/dupkisnya/image/upload/f_webp/Screenshot_from_2024-09-28_00-03-07_g4syg9.jpg',
 			description: 'Introducing Promptopia, a website built for sharing AI prompts.',
 			githubUrl: 'https://github.com/leavedtrait/share-prompts',
 			liveUrl: 'https://share-prompts-dusky.vercel.app/',
@@ -19,9 +20,11 @@
 			category: 'fullstack'
 		},
 		{
-			imageUrl: 'https://res.cloudinary.com/dupkisnya/image/upload/f_webp/Screenshot_from_2024-09-28_00-40-16_fthugj.jpg',
+			imageUrl:
+				'https://res.cloudinary.com/dupkisnya/image/upload/f_webp/Screenshot_from_2024-09-28_00-40-16_fthugj.jpg',
 			title: 'My portfolio',
-			description: 'My portfolio/blog, built with SvelteKit and Tailwind. The blog is powered by Sanity CMS',
+			description:
+				'My portfolio/blog, built with SvelteKit and Tailwind. The blog is powered by Sanity CMS',
 			githubUrl: 'https://github.com/leavedtrait/portfolio',
 			liveUrl: 'https://leavedtrait.vercel.app',
 			tags: ['SvelteKit', 'Tailwind', 'CMS'],
@@ -29,14 +32,14 @@
 		},
 		{
 			title: 'Promptopia',
-			imageUrl: 'https://res.cloudinary.com/dupkisnya/image/upload/f_webp/Screenshot_from_2024-09-28_00-03-07_g4syg9.jpg',
+			imageUrl:
+				'https://res.cloudinary.com/dupkisnya/image/upload/f_webp/Screenshot_from_2024-09-28_00-03-07_g4syg9.jpg',
 			description: 'Introducing Promptopia, a website built for sharing AI prompts.',
 			githubUrl: 'https://github.com/leavedtrait/share-prompts',
 			liveUrl: 'https://share-prompts-dusky.vercel.app/',
 			tags: ['Nextjs', 'MongoDB', 'Next-auth'],
 			category: 'fullstack'
-		},
-
+		}
 	];
 </script>
 
