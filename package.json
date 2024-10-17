@@ -37,8 +37,9 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"@types/node": "^22.7.0",
+		"@auth/sveltekit": "^1.7.0",
 		"@sanity/vision": "^3.59.0",
+		"@types/node": "^22.7.0",
 		"react": "^18.2.0",
 		"react-dom": "^18.2.0",
 		"sanity": "^3.59.0",
