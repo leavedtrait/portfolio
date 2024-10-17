@@ -4,7 +4,7 @@
 	export let project: projectCardProps;
 </script>
 
-<div class="max-w-xs overflow-hidden rounded-lg bg-base-200/30 shadow-lg backdrop:blur-md">
+<div class=" max-w-sm overflow-hidden rounded-lg bg-base-200/30 shadow-lg backdrop:blur-md">
 	<figure class="aspect-w-16 aspect-h-9">
 		<img src={project.imageUrl} alt={project.title} class="h-auto w-full object-cover" />
 	</figure>
